@@ -13,6 +13,8 @@ int main() {
         cout << n1 << " menor que " << n2;
     }else if (n2 < n1){
         cout << n2 << " menor que " << n1;
+    }else{
+        cout << "os numeros sao iguais";
     }
     
 	return 0;
