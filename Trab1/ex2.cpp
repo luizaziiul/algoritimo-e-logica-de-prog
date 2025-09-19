@@ -7,7 +7,6 @@ int main() {
     float n1, n2, media;
     string msg;
     
-    
     cout << "informe suas 2 notas:";
     cin >> n1 >> n2;
     
@@ -29,3 +28,4 @@ int main() {
 	return 0;
 }
 }
+
