@@ -4,13 +4,13 @@ using namespace std;
 int main () {
     float salario;
     
-    cout << "Informe seu salário em R$: ";
+    cout << "Informe seu salario em R$: ";
     cin >> salario;
     
     if (salario < 500) {
-    cout<< "Com o reajuste, seu salário passará a ser R$:" << (salario * 1.3) << endl; 
+    cout<< "Com o reajuste, seu salario passara a ser R$:" << (salario * 1.3) << endl; 
     } else {
-        cout << "Você não recebeu reajuste." << endl;
+        cout << "Voce nao recebeu reajuste." << endl;
     }
     return 0;
     
